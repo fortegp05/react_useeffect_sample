@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import useGetSoftwareDevelopments from './hooks/useGetSamples';
 
 function App() {
+  const dummy = useGetSoftwareDevelopments()
+  console.log(dummy)
   return (
     <div className="App">
       <header className="App-header">

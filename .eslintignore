@@ -1,0 +1,6 @@
+build/
+public/
+**/coverrage/
+**/node_modules/
+**/*.min.js
+*.config.js
